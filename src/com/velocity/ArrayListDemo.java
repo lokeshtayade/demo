@@ -7,6 +7,10 @@ public class ArrayListDemo {
 		ArrayList<String> arrayList = new ArrayList<String>();
 		arrayList.add("Abhi");
 		arrayList.add("Morshkar");
-		System.out.println(arrayList);
+
+		for (String s : arrayList) {
+			System.out.println(s);
+
+		}
 	}
 }
